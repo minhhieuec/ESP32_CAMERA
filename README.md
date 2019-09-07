@@ -1,7 +1,8 @@
 # ESP32_CAMERA
-- Set PATH:
+- Set PATH tutorial:
 https://docs.espressif.com/projects/esp-idf/en/v3.2.2/get-started-cmake/add-idf_path-to-profile.html
-set <b>IDF_PATH:</b>
+
+- Set <b>IDF_PATH:</b>
 1. edit file <b>idf_cmd_init.bat</b> (comment line 9 to REM set IDF_PATH=%CD%, or set IDF_PATH=...).
 2. open Edit Environment Variables and add <b>IDF_PATH</b>.
 
