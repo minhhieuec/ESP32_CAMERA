@@ -6,13 +6,13 @@ Copy `http_jpg` to `esp_idf` folder.
 
 `cd` to `http_jpg` and run following commands:
 
-`idf.py build` to build.
+- `idf.py build` to build.
 
-`idf.py -p COM7 flash` to flash firmware to ESP32.
+- `idf.py -p COM7 flash` to flash firmware to ESP32.
 
-`idf.py monitor` to monitor
+- `idf.py monitor` to monitor
 
-# TEST
+# Test
 open and type your esp32 IP.
 example: `192.168.12.102/jpg`
 
