@@ -44,6 +44,7 @@ https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html#get
 
 ## Fix bugs
 1. Detected camera not supported
+
 error like this:
 ```
 E (273) camera: Detected camera not supported.
@@ -60,6 +61,7 @@ https://github.com/espressif/esp-who/issues/57
 
 2. sccb: SCCB_Write [ff]=01 failed SCCB_Write [12]=80 failed
 
+check pin define for CAM Connector.
 set `#define CAM_PIN_PWDN   -1` to `#define CAM_PIN_PWDN   32`
 
 ## Command Prompt:
