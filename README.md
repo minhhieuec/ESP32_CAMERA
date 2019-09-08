@@ -59,6 +59,12 @@ void enable_power_on_camera(void){
 References:
 https://github.com/espressif/esp-who/issues/57
 
+2. sccb: SCCB_Write [ff]=01 failed SCCB_Write [12]=80 failed
+
+set `#define CAM_PIN_RESET   -1` to `#define CAM_PIN_RESET   32`
+
+References: https://github.com/espressif/esp32-camera/issues/5
+
 ## Command Prompt:
 - list all file: `dir`
 - change disk:  `E:` or `C:`
